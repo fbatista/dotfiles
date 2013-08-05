@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /Users/fred/.gitignore_global
+	excludesfile = /opt/boxen/config/git/gitignore
 	editor = subl -w
 [alias]
 	st = status
@@ -24,3 +24,9 @@
 	email = fred@helloform.com
 [push]
 	default = simple
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[hub]
+protocol = https
